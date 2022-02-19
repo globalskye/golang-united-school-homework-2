@@ -9,8 +9,9 @@ import "math"
 // ВычислитьКвадрат(10.0, СтороныТреугольника)
 // ВычислитьКвадрат(10.0, СтороныКвадрат)
 // CalcSquare(10.0, SidesCircle)
+type myInt int
 
-func CalcSquare(sideLen float64, sidesNum float64) float64 {
+func CalcSquare(sideLen float64, sidesNum myInt) float64 {
 
 	const SidesTriangle = 3
 	const SidesSquare = 4
